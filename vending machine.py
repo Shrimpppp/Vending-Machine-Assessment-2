@@ -3,42 +3,42 @@ wallet = 0
 
 # items, stocks and prices
 snacks_dict = {
-    0: {"name": "Chips", "price": 1.50, "stock": 1 , "sugg": "Coke / Pepsi"},
-    1: {"name": "Reese's", "price": 2.00, "stock": 3, "sugg": "Chocolate Milk / Milk"},
-    2: {"name": "Malteesers", "price": 2.75, "stock": 4, "sugg": "Milk"},
-    3: {"name": "Oreo", "price": 1.25, "stock": 1, "sugg": "Chocolate milk / Milk"},
-    4: {"name": "Kinder Chocolate", "price": 2.00, "stock": 1, "sugg": "Chocolate milk / Milk"},
-    5: {"name": "Tim Tams", "price": 1.50, "stock": 2, "sugg": "Chocolate milk / Milk"},
-    6: {"name": "Twinkies", "price": 1.50, "stock": 2, "sugg": "Chocolate milk / Milk"},
-    7: {"name": "Skittles", "price": 2.25, "stock": 3, "sugg": "Chocolate milk / Milk"},
-    8: {"name": "M&M's", "price": 2.50, "stock": 3, "sugg": "Chocolate milk / Milk"},
-    9: {"name": "Takis", "price": 3.00, "stock": 1, "sugg": "Chocolate milk / Milk"},
-    10: {"name": "Skyflakes", "price": 1.00, "stock": 3, "sugg": "Coffee / Milk / Chocolate Milk"}}
+    0: {"name": "Chips", "price": 1.50, "stock": 1 , "sugg": "Coke / Pepsi / Peached Ice Tea / Lemon Ice Tea"},
+    1: {"name": "Reese's", "price": 2.00, "stock": 3, "sugg": "Chocolate Milk / Vanilla Cold Brew"},
+    2: {"name": "Malteesers", "price": 2.75, "stock": 4, "sugg": "Chocolate Milk"},
+    3: {"name": "Oreo", "price": 1.25, "stock": 1, "sugg": "Chocolate milk / Caramel Cold Brew / Vanilla Cold Brew"},
+    4: {"name": "Kinder Chocolate", "price": 2.00, "stock": 1, "sugg": "Chocolate milk"},
+    5: {"name": "Tim Tams", "price": 1.50, "stock": 2, "sugg": "Chocolate Milk / Vanilla Cold Brew / Espresso"},
+    6: {"name": "Twinkies", "price": 1.50, "stock": 2, "sugg": "Anything on the hot drinks catalogue"},
+    7: {"name": "Skittles", "price": 2.25, "stock": 3, "sugg": "Chocolate milk / Water"},
+    8: {"name": "M&M's", "price": 2.50, "stock": 3, "sugg": "Chocolate milk / Water"},
+    9: {"name": "Takis", "price": 3.00, "stock": 1, "sugg": "Chocolate milk / Water / Lemon Ice Tea / Lemon Ice Tea"},
+    10: {"name": "Skyflakes", "price": 1.00, "stock": 3, "sugg": "Anything on the Hot drinks Catalogue / Chocolate Milk"}}
 
 cold_drinks_dict = {
     0: {"name": "Coke", "price": 2.00, "stock": 2, "sugg": "Chips / Takis"},
-    1: {"name": "Chocolate milk", "price": 3.00, "stock": 6, "sugg": "Skyflakes / Twinkies / Oreo"},
-    2: {"name": "Pepsi", "price": 2.50, "stock": 5, "sugg": "Chips / Tankis"},
-    3: {"name": "water", "price": 1.00, "stock": 3, "sugg": "Anything in the snack catalogue."},
+    1: {"name": "Chocolate Milk", "price": 3.00, "stock": 3, "sugg": "Skyflakes / Twinkies / Oreo"},
+    2: {"name": "Pepsi", "price": 2.50, "stock": 4, "sugg": "Chips / Tankis"},
+    3: {"name": "Cold Water", "price": 1.00, "stock": 3, "sugg": "Anything in the snack catalogue."},
     4: {"name": "Iced Latte", "price": 2.25, "stock": 4, "sugg": "Twinkies / Skyflakes"},
     5: {"name": "Vanilla Cold Brew", "price": 5.00, "stock": 1, "sugg": "Twinkies / Skyflakes"},
     6: {"name": "Caramel Cold Brew", "price": 4.00, "stock": 2, "sugg": "Twinkies / Skyflakes"},
     7: {"name": "Chocolate Cream Cold Brew", "price": 5.00, "stock": 1, "sugg": "Twinkies / Skyflakes / Tim Tams"},
-    8: {"name": "Lemon Iced Tea", "price": 2.50, "stock": 3, "sugg": "Chips / Takis"},
+    8: {"name": "Lemon Ice Tea", "price": 2.50, "stock": 3, "sugg": "Chips / Takis"},
     9: {"name": "Peached Ice Tea", "price": 2.50, "stock": 2, "sugg": "Chips / Takis."},
     10: {"name": "Chocolate Milk Shake", "price": 3.50, "stock": 3, "sugg": " Reese's / Crackers / Twinkies / Oreo / Tim Tams"}}
 
 Hot_drinks_dict = {
-    0: {"name": "Classic Hot chocolate", "price": 2.50, "stock": 4, "sugg": "Twinkies / Crackers"},
+    0: {"name": "Classic Hot chocolate", "price": 2.50, "stock": 2, "sugg": "Twinkies / Crackers"},
     1: {"name": "Espresso", "price": 1.50, "stock": 2, "sugg": "Twinkies / Crackers"},
     2: {"name": "Vanilla Latte", "price": 2.75, "stock": 1, "sugg": "Twinkies / Crackers"},
     3: {"name": "Mocha", "price": 3.50, "stock": 2, "sugg": "Twinkies / Crackers"},
     4: {"name": "Chamomile Tea", "price": 2.00, "stock": 3, "sugg": "Twinkies / Crackers"},
-    5: {"name": "Chai Latte", "price": 1.50, "stock": 4, "sugg": "Twinkies / Crackers"},
+    5: {"name": "Chai Latte", "price": 1.50, "stock": 2, "sugg": "Twinkies / Crackers"},
     6: {"name": "Matcha Latte", "price": 4.75, "stock": 1, "sugg": "Twinkies / Crackers / SKyflakes"},
     7: {"name": "Dark Chocolate", "price": 1.75, "stock": 3, "sugg": "Twinkies / Crackers / Skyflakes"},
-    8: {"name": "Marshmellow Hot Chocolate", "price": 2.00, "stock": 5, "sugg": "Twinkies / Crackers / Skyflakes"},
-    9: {"name": "Spiced Hot Chocolate", "price": 3.00, "stock": 4, "sugg": "Twinkies / Crackers / Skyflakes"},
+    8: {"name": "Marshmellow Hot Chocolate", "price": 2.00, "stock": 1, "sugg": "Twinkies / Crackers / Skyflakes"},
+    9: {"name": "Spiced Hot Chocolate", "price": 3.00, "stock": 1, "sugg": "Twinkies / Crackers / Skyflakes"},
     10: {"name": "Green Tea", "price": 1.50, "stock": 1, "sugg": "Twinkies / Crackers / Skyflakes"}}
 
 # func - checks if bill is valid
@@ -46,10 +46,10 @@ def money_check(m):
     try:
         money = float(m)
         if money > 20:
-            print("Please enter a bill 20 or under.")
+            print(f"Please enter a bill $20 or under. \nreturning ${money}...")
             return 0
         elif money < 1:
-            print("Please enter  bill higher than 0")
+            print(f"Please enter  bill minimum $1\nreturning ${money}...")
             return 0
         else:
             return money
@@ -84,13 +84,18 @@ def hot_drinks():
             # quits if both is executed
             
     if non_string:
-        if Hot_drinks_dict[Hot_drink_user_option]["price"] <= wallet:
+        if Hot_drink_user_option > 10 or Hot_drink_user_option < 0:
+            print("Please select an item in the menu")
+            hot_drinks()
+        elif Hot_drinks_dict[Hot_drink_user_option]["stock"] < 1:
+            print("Out of stock...")
+        elif Hot_drinks_dict[Hot_drink_user_option]["price"] <= wallet:
             wallet -= Hot_drinks_dict[Hot_drink_user_option]["price"]
-            Hot_drinks_dict[z]["stock"] -= 1
+            Hot_drinks_dict[Hot_drink_user_option]["stock"] -= 1
             print(f"dispensing {Hot_drinks_dict[Hot_drink_user_option]['name']}...")# dispense, wallet balance remaining and stocks
             print(f"{Hot_drinks_dict[Hot_drink_user_option]['name']} goes well with {Hot_drinks_dict[Hot_drink_user_option]['sugg']}")
         elif wallet < Hot_drinks_dict[Hot_drink_user_option]['price']:
-            print("insufficient funds / Out of stock")
+            print("insufficient funds...")
         else:
             print("Invalid Input")
             
@@ -118,9 +123,14 @@ def snack():
             print("Invalid Input")
             next
     if non_string:
-        if snacks_dict[snack_user_option]["price"] <= wallet:
+        if snack_user_option > 10 or snack_user_option < 0:
+            print("Please select an item in the menu")
+            snack()
+        elif snacks_dict[snack_user_option]["stock"] < 1:
+            print("Out of stock...")
+        elif snacks_dict[snack_user_option]["price"] <= wallet:
             wallet -= snacks_dict[snack_user_option]["price"]
-            snacks_dict[i]["stock"] -= 1
+            snacks_dict[snack_user_option]["stock"] -= 1
             print(f"dispensing {snacks_dict[snack_user_option]['name']}...")
             print(f"{snacks_dict[snack_user_option]['name']} goes well with {snacks_dict[snack_user_option]['sugg']}")
         elif wallet < snacks_dict[snack_user_option]['price']:
@@ -153,7 +163,12 @@ def cold_drinks():
             next
     
     if non_string:
-        if cold_drinks_dict[cold_drink_user_option]["price"] <= wallet:
+        if cold_drink_user_option > 10 or cold_drink_user_option < 0:
+            print("Please select an item in the menu")
+            cold_drinks()
+        elif cold_drinks_dict[cold_drink_user_option]['stock'] < 1:
+            print("Out of stock...")
+        elif cold_drinks_dict[cold_drink_user_option]["price"] <= wallet:
             wallet -= cold_drinks_dict[cold_drink_user_option]["price"]
             cold_drinks_dict[cold_drink_user_option]['stock'] -= 1
             print(f"dispensing {cold_drinks_dict[cold_drink_user_option]['name']}...")
@@ -209,5 +224,4 @@ while True:
             break
     
 
-print(f"your change is ${wallet}\ndispensing change...")
-
+print(f"your change is ${wallet}\ndispensing change...\n Thank you for using our vending Machine! Come again soon!")
